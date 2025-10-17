@@ -1,0 +1,24 @@
+{
+  "name": "aftership-webhook-netlify",
+  "version": "1.0.0",
+  "description": "AfterShip webhook integration with Google Sheets CSV",
+  "main": "netlify/functions/aftership-webhook.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "aftership",
+    "webhook",
+    "tracking",
+    "netlify"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
